@@ -1,6 +1,6 @@
 package jm.task.core.jdbc.model;
 
-import javax.persistence.*;
+import javax.persistence.*; //TODO импорты отдельно
 
 @Entity
 @Table
@@ -20,7 +20,7 @@ public class User {
 
     public User() {
 
-    }
+    }//TODO отступ
     public User(long id){
         this.id = id;
     }

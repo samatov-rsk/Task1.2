@@ -1,5 +1,5 @@
 package jm.task.core.jdbc.util;
-
+//TODO ????
 import jm.task.core.jdbc.model.User;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
@@ -13,8 +13,8 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class Util {
-
-
+//TODO ????
+//TODO ????
 
     private static final String URL = "jdbc:mysql://localhost:3306/userskata";
     private static final String USERNAME = "samativrsk";

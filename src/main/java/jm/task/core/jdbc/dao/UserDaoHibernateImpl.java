@@ -1,5 +1,6 @@
 package jm.task.core.jdbc.dao;
 
+//TODO лишние импорты, неиспользуемые надо удалять
 import jm.task.core.jdbc.model.User;
 import java.util.List;
 import java.util.Properties;
@@ -9,7 +10,7 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.cfg.Environment;
 import org.hibernate.service.ServiceRegistry;
 
-
+//TODO зачем вообще этот класс нужен? если его неиспользуешь нигде
 public class UserDaoHibernateImpl implements UserDao {
 
     public UserDaoHibernateImpl() {
